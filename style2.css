@@ -1,0 +1,108 @@
+
+
+
+div.fix {
+    position: fixed;
+    width: 99%;
+    padding: 2% 0 2% 0;
+    background-color: black;
+    opacity: 0.78;
+    z-index: 3;
+}
+div a{
+    color: aliceblue;
+    padding-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: orange;
+}
+.nav{
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 27px;
+    font-size: 30px;
+    border-color: red;
+    border-style:initial;
+    border-width: 7px;
+    background-color: red;
+}
+li{
+    font-size: 20PX;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#desc{
+    font-size: 20px;
+}
+nav{
+    background-color: orange;
+}
+.imgw{
+    width: 300px;
+
+}
+#nombrew{
+    width: 170px;
+
+}
+#diaw{
+    width: 170px;
+
+}
+.texto{
+	display: flex;
+	background-color:none;
+}
+.text{
+	padding-left: 20px;
+	font-size: 24px;
+}
+.redes{
+    width: 30px;
+    display: inline-block;
+}
+
+.name-colab{
+    font-size: 25px;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.contenedor_1{
+    display: flex;
+    background-color:oldlace;
+}
+.imagen_1{
+    width: 350;
+    height: 250px;
+}
+section{
+    display: flex;
+    width: 390px;
+    height: 399px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.contenedor_2{
+    display: flex;
+    background-color:oldlace;
+}
+.imagen_2{
+    width: 350;
+    height: 250px;
+}

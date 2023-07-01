@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fix">
+        <a href="sobre_nosotros.html" style="background-color: black;">Sobre Nosotros </a>
+        <a href="restaurantes.html" style="background-color: black;">restaurantes</a>
+        <a href="crear_usuario.html" style="background-color: black;">registrarse</a>
+    </div>
+        <video controls>
+            <source class="fondo" src="vide.mp4" type="video/mp4">
+        </video>
+
+
+        <h1>Integrantes del proyecto FullStack</h1>
+        <table>
+    
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>alias</th>
+            </tr>
+    
+            <tr>
+                <th>Matias</th>
+                <th>16</th>
+                <th>elmati</th>
+            </tr>
+    
+            <tr>
+                <th>Emanuel</th>
+                <th>17</th>
+                <th>Humita</th>
+            </tr>
+    
+            <tr>
+                <th>Williams</th>
+                <th>18</th>
+                <th>Dark Loli</th>
+    
+            </tr>
+    
+            <tr>
+                <th>Gino</th>
+                <th>16</th>
+                <th>Ginobilli</th>
+            </tr>
+    
+        </table>
+
+<script src="script.js">
+    function crear-cuadro-dialogo() {
+    var dialog = document.createElement("div");
+    dialog.class-list.add("dialog");
+  
+    var pregunta = document.createElement("p");
+    pregunta.textContent = "¿Qué te pareció nuestra página?";
+  
+    var botonBuenisima = document.createElement("button");
+    botonBuenisima.textContent = "Buenísima";
+    botonBuenisima.addEventListener("click", function() {
+      alert("¡Gracias por tu opinión!");
+      dialog.remove();
+    });
+  
+    var botonMalisima = document.createElement("button");
+    botonMalisima.textContent = "Malísima";
+    botonMalisima.addEventListener("click", function() {
+      alert("¡Esperamos mejorar en el futuro!");
+      dialog.remove();
+    });
+  
+    dialog.appendChild(pregunta);
+    dialog.appendChild(botonBuenisima);
+    dialog.appendChild(botonMalisima);
+  
+    document.body.appendChild(dialog);
+  }
+  
+    window.addEventListener("DOMContentLoaded", function() {
+    crearCuadroDialogo();
+  });
+  
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    background-color: aquamarine;
+}
+div.fix {
+    position: fixed;
+    width: 99%;
+    padding: 2% 0 2% 0;
+    background-color: black;
+    opacity: 0.78;
+    z-index: 3;
+}
+div a{
+    color: aliceblue;
+    padding-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: orange;
+}
+.footer{
+    display: inline-block;
+    background-color: black;
+    color:aliceblue;
+}
+h4.footer{
+    border: solid;
+    border-color: black black orange black;
+}
+.fondo{
+    position: absolute;
+    z-index: -1;
+}
+#vcp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+#hrc{border-color: orange;}
+.redes{
+    background-color: black;
+  }
+ div a{
+    text-decoration: none;
+ }
+ .red {
+    border-radius: 50%;
+ }
+ .formulario {
+    width: 400px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:black ;
+  }
+  
+  .formulario h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    background-color: black;
+  }
+  .box {
+    width: 94%;
+    background: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  .lab {
+    width: 100%;
+    background: black;
+    padding: 10px;
+    padding-right: 200px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  .formulario .boton {
+    width: 100%;
+    background: orange;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  tr th{
+    border: 1px solid black;
+}
